@@ -1,8 +1,6 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://github.com/$1"
-    }
+  "version": 2,
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/proxy" }
   ]
 }
