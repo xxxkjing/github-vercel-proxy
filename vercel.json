@@ -1,6 +1,8 @@
 {
-  "version": 2,
-  "routes": [
-    { "src": "/(.*)", "dest": "/api/proxy" }
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https:/nethack.alt.org/$1"
+    }
   ]
 }
