@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https:/nethack.alt.org/$1"
+      "destination": "https://alt.org/nethack/hterm/"
     }
   ]
 }
