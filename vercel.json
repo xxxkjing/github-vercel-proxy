@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://bing.com"
+      "destination": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/tree/main"
     }
   ]
 }
